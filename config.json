@@ -1,9 +1,11 @@
 {
   "title": "Press Kit - Company Name",
-  "companyLink": {
-    "name": "CompanyName.com",
-    "link": "&#47;"
-  },
+  "largeLinks": [
+    {
+      "name": "CompanyName.com",
+      "link": "&#47;"
+    }
+  ],
   "projectLinks": [
     {
       "name": "Example Project",
