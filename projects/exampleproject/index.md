@@ -1,4 +1,4 @@
-# ![Company Name](assets/images/header.png)
+# ![Game Name](assets/images/header.png)
 
 ## Factsheet
 
