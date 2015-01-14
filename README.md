@@ -1,4 +1,4 @@
-# dopresskit differently
+# differently
 
 A press kit similiar to [presskit()](http://dopresskit.com/) built on top of [flatdoc](http://ricostacruz.com/flatdoc/)
 
