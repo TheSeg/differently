@@ -13,7 +13,7 @@ To the extent possible under law, Shane Marks has waived all copyright and relat
 
 ## Setup
 
-[See the wiki](https://github.com/unknowndevice/dopresskit-differently/wiki)
+[See the wiki](../../wiki)
 
 ## Issues
 
