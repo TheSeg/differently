@@ -9,7 +9,7 @@ A press kit similiar to [presskit()](http://dopresskit.com/) built on top of [fl
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, Shane Marks has waived all copyright and related or neighboring rights to dopresskit differently.
+To the extent possible under law, Shane Marks has waived all copyright and related or neighboring rights to differently.
 
 ## Setup
 
