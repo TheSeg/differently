@@ -149,7 +149,7 @@ function titleAndHeaderLinks(title, largeLinks, projectLinks) {
   if (!$.isEmptyObject(largeLinks)) {
     $.each(largeLinks, function(index, data) {
       $('.left ul').append('<li><a href=' + data['link'] + '><h1>' + data['name'] + '</h1></a></li>')
-    }
+    })
   }
 
   if (!$.isEmptyObject(projectLinks)) {
