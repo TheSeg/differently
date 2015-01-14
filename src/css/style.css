@@ -1,0 +1,197 @@
+/* ================================================== */
+/* Pre Common */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+
+body {
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 200px;
+}
+
+a, a:link, a:visited, a:hover, a:focus {
+  text-decoration: none;
+}
+
+a {
+  color: #2BADAD;
+}
+
+a:hover, a:focus {
+  color: #228A8A;
+}
+
+h2, .h2 {
+  font-size: 24px;
+}
+
+h3, .h3 {
+  font-size: 18px;
+}
+
+h4, .h4 {
+  font-size: 16px;
+}
+
+h6, .h6 {
+  font-size: 14px;
+}
+
+/* ================================================== */
+/* Header */
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+.header a, .header a:active, .header a:focus {
+  color: #999;
+}
+
+.header a:hover {
+  color: #333;
+}
+
+.header a {
+  display:inline-block;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.header h1 {
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.header li {
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid #DDD;
+  display:inline;
+}
+
+.header li:last-child {
+  border-right: none;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  min-height: 0px;
+}
+
+/* ================================================== */
+/* Sidebar */
+
+.menubar a {
+  color: #444;
+}
+
+.menubar li {
+  list-style-type: none;
+}
+
+.menubar a.level-1 {
+  color: #000;
+  font-size: 30px;
+}
+
+.menubar ul.level-1 {
+  padding-left: 20px;
+}
+
+.menubar ul.level-2 {
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+.menubar li.level-2 {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.menubar ul.level-3 {
+  padding-left: 10px;
+}
+
+.menubar li.level-3 {
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.menubar li.level-3:last-child {
+  padding-bottom: 0px;
+  margin-bottom: -2.5px;
+}
+
+.nav-sidebar {
+  margin-right: -21px;
+  margin-left: -20px;
+  padding-left: 30px;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    padding-top: 10px;
+  }
+}
+
+/* ================================================== */
+/* Content */
+
+.content > h1 img {
+  width: 100%;
+}
+
+#images img, #logo-icon img {
+  width: 45%;
+  padding: 10px;
+}
+
+.iframe-container {
+  position: relative;
+  padding-bottom: 56.5%;
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+div.col-md-12, div.col-md-6 {
+  margin-top: 20px;
+  border-top: 1px solid #DDD;
+}
+
+blockquote {
+  padding: 5px 0px;
+  margin: 0px;
+  font-size: 13px;
+  border-left: none;
+}
+
+/* ================================================== */
+/* Post Common */
