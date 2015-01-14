@@ -142,7 +142,7 @@ function titleAndHeaderLinks(title, largeLinks, projectLinks) {
 
   $('title').text(title)
 
-  if ($.isEmptyObject(companyLink) && $.isEmptyObject(projectLinks)) { return }
+  if ($.isEmptyObject(largeLinks) && $.isEmptyObject(projectLinks)) { return }
 
   $('.content-root').before('<div class="header"><div class="left"><ul></ul></div></div>')
 
@@ -150,9 +150,6 @@ function titleAndHeaderLinks(title, largeLinks, projectLinks) {
     $.each(largeLinks, function(index, data) {
       $('.left ul').append('<li><a href=' + data['link'] + '><h1>' + data['name'] + '</h1></a></li>')
     }
-
-
-    $('.left ul').append('<li><a href=' + companyLink['link'] + '><h1>' + companyLink['name'] + '</h1></a></li>')
   }
 
   if (!$.isEmptyObject(projectLinks)) {
