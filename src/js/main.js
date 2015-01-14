@@ -123,13 +123,8 @@ function fixiFrame() {
 function configJSON()
 {
   $.getJSON('config.json', function(json) {
-    if ($.isEmptyObject(json['projectLinks'])) {
-      titleAndHeaderLinks(json['title'], json['companyLink'], json['presskitHome'])
-    }
-    else {
-      titleAndHeaderLinks(json['title'], json['companyLink'], json['projectLinks'])
-    }
 
+    titleAndHeaderLinks(json['title'], json['largeLinks'], json['projectLinks'])
     bootstrapElements(json['layout'])
 
     if ($.isEmptyObject(json['googleAnalytics']) || json['googleAnalytics'].length === 0) { return }
