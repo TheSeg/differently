@@ -138,7 +138,7 @@ function configJSON()
   })
 }
 
-function titleAndHeaderLinks(title, companyLink, projectLinks) {
+function titleAndHeaderLinks(title, largeLinks, projectLinks) {
 
   $('title').text(title)
 
@@ -146,7 +146,12 @@ function titleAndHeaderLinks(title, companyLink, projectLinks) {
 
   $('.content-root').before('<div class="header"><div class="left"><ul></ul></div></div>')
 
-  if (!$.isEmptyObject(companyLink)) {
+  if (!$.isEmptyObject(largeLinks)) {
+    $.each(largeLinks, function(index, data) {
+      $('.left ul').append('<li><a href=' + data['link'] + '><h1>' + data['name'] + '</h1></a></li>')
+    }
+
+
     $('.left ul').append('<li><a href=' + companyLink['link'] + '><h1>' + companyLink['name'] + '</h1></a></li>')
   }
 
