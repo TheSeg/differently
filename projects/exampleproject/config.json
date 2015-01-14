@@ -1,10 +1,10 @@
 {
   "title": "Example Project",
-  "companyLink": {
-    "name": "CompanyName.com",
-    "link": "&#47;"
-  },
-  "presskitHome": [
+  "largeLinks": [
+    {
+      "name": "CompanyName.com",
+      "link": "&#47;"
+    },
     {
       "name": "Press Kit - Home",
       "link": "..&#47;..&#47;"
