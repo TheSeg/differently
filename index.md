@@ -50,13 +50,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Videos
 
-We have a trailer and this is it: [Youtube](https://www.youtube.com/watch?v=WB0yAm6iXEw "Gunhouse Trailer on Youtube")  
+We have a trailer and this is it. [And this is what we called the link](https://www.youtube.com/watch?v=WB0yAm6iXEw "Gunhouse Trailer on Youtube")  
 
 <iframe src="//www.youtube.com/embed/WB0yAm6iXEw" frameborder="0" allowfullscreen></iframe>
 
 <br>
 
-This is some music from our games! [Youtube](http://www.youtube.com/watch?v=hxQAUADFCzw "Motohiro Kawashima live")
+This is some music from our games! [Yeah, you like it I think](http://www.youtube.com/watch?v=hxQAUADFCzw "Motohiro Kawashima live")
 <iframe src="//www.youtube.com/embed/hxQAUADFCzw" frameborder="0" allowfullscreen></iframe>
 
 ## Images
@@ -77,10 +77,8 @@ download logo files as ** [.zip (7 KB)]( assets/images/logo.zip "Logo & Icon zip
 
 ## Awards & Recognition
 
-> * "Winner in this highly relevant contest." - *Award Location, 20 October, 1989*
-> * "Nomination for this prestigious award." - *Award Ceremony, 4 December, 1991*
-> * "Winner in this highly relevant contest." - *Award Location, 20 October, 1989*
-> * "Nomination for this prestigious award." - *Award Ceremony, 4 December, 1991*
+> * "Winner, XX awards." - *game name, December 13, 2013*
+> * "Nominee, YY awards." - *game name, December 13, 2013*
 
 ## Selected Articles
 

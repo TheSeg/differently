@@ -60,6 +60,11 @@ download logo files as ** [.zip (7 KB)]( assets/images/logo.zip "Logo & Icon zip
 [![logo](assets/images/logo.png)](assets/images/logo.png "Logo")
 [![icon](assets/images/icon.png)](assets/images/icon.png "Icon")
 
+## Awards & Recognition
+
+> * "Winner, XX awards." - *December 13, 2013*
+> * "Nominee, YY awards." - *December 13, 2013*
+
 ## Selected Articles
 
 > * "Put a quote here, from someone who talked about your game."  
